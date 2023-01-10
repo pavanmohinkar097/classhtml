@@ -1,0 +1,38 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <fieldset>
+            <legend>Register form</legend>
+            <form action="2general.html" >
+                <label for="FirestName">
+                      <sup>*</sup>
+                </label>
+                FirestName:<input types="text" name=" FirestName" pattern="[a-zA-Z]{2,10}" tabindex="1"maxlength="10" minlength="2" required>
+                <br/>
+                <br/>
+                LastNme:<input types="text" name=" LastNme"pattern="[a-zA-Z]{12,10} tabindex="2" maxlength="10" minlength="2"required>
+                <br>
+                <br>
+                github url:<input type="url" name="github"required="3"maxlength="10" minlength="2">
+                <br>
+                <br>
+                <label for="email">
+                    <sup>*</sup>
+                </label>
+                Email:<input type="email" id="email" name="userEmail" required>
+                <br>
+                <br>
+                Phone number:<input type="number" name="phone" maxlength="10">
+                <br>
+                <br>
+                Birthday:<input  type="date" id="birthday" name="birthday" tabindex="4"required>
+                <br>
+                <br>
+                <input type="submit" value="Register" />
+                <input type="reset" value="clear"/>
+            </form>
+        </fieldset>
+    </body>
+</html>
